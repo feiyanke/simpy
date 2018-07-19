@@ -38,7 +38,7 @@ class FunctionModel(Model):
     def __init__(self, f):
         Model.__init__(self)
         if hasattr(f, '__call__'):
-            self._f = f;
+            self._f = f
         else:
             raise Exception("not function")
 

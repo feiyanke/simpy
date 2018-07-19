@@ -13,5 +13,6 @@ def run():
         fall.set_state([-0.8*v, 0])
     scope(v,s)
 
+env.real = True
 simulate(run, 120)
 
